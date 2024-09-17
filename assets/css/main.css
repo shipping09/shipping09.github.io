@@ -2594,7 +2594,7 @@ input, select, textarea {
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
 		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
-		/* background-image: linear-gradient(blue ,#007fff,#00bfff,#87cefa,#f0f8ff) !important; */
+		background-image: linear-gradient(blue ,#007fff,#00bfff,#87cefa,#f0f8ff) !important;
 		background-image: url("../../images/bg2.jpg"); /*瀏覽器不支持時顯示 */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
