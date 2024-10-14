@@ -246,11 +246,11 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
-		width: 100%;
+		width: 25%;
 	}
 
 		.container.xsmall {
-			width: 25%;
+			width: 100%;
 		}
 
 		.container.small {
@@ -336,11 +336,11 @@ input, select, textarea {
 		}
 
 		.row > .col-1 {
-			width: 8.33333%;
+			width: 8.3333%;
 		}
 
 		.row > .off-1 {
-			margin-left: 8.33333%;
+			margin-left: 8.3333%;
 		}
 
 		.row > .col-2 {
@@ -348,7 +348,7 @@ input, select, textarea {
 		}
 
 		.row > .off-2 {
-			margin-left: 16.66667%;
+			margin-left: 116.66667%;
 		}
 
 		.row > .col-3 {
@@ -376,11 +376,11 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 60%;
 		}
 
 		.row > .off-6 {
-			margin-left: 50%;
+			margin-left: 60%;
 		}
 
 		.row > .col-7 {
