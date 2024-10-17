@@ -382,7 +382,7 @@ input, select, textarea {
 		.row > .off-6 {
 			margin-left: 60%;
 		}
-
+		
 		.row > .col-7 {
 			width: 58.33333%;
 		}
@@ -532,6 +532,28 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 5em;
 				}
+							
+			/* <style>
+				.image-container {
+					position: relative;
+					display: inline-block;
+				}
+				.overlay {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					color: white;
+					background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+					padding: 10px;
+					border-radius: 5px;
+					text-align: center;
+					visibility: hidden; /* 初始隱藏 */
+				}
+				.image-container:hover .overlay {
+					visibility: visible; /* 滑鼠懸停時顯示文字 */
+				}
+			</style> */
 
 		@media screen and (max-width: 1800px) {
 
@@ -625,7 +647,7 @@ input, select, textarea {
 				.row > .off-6-xlarge {
 					margin-left: 50%;
 				}
-
+				
 				.row > .col-7-xlarge {
 					width: 58.33333%;
 				}
@@ -776,7 +798,7 @@ input, select, textarea {
 							padding-top: 5em;
 						}
 
-		}
+            }
 
 		@media screen and (max-width: 1280px) {
 
@@ -2073,7 +2095,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				/* content: 'View'; */
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
