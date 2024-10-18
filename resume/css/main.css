@@ -49,7 +49,7 @@ html, body {
   font-size: 1rem;
   line-height: 2.5rem;
   color: inherit;
-  opacity: 0.4; }
+  opacity: 0.2; }
 
 .header-social .nav-link {
   font-size: 1.25rem; }
@@ -109,7 +109,7 @@ footer a:not(.nav-link) {
 
 @media print {
   [data-aos] {
-    opacity: 1 !important;
+    opacity: 0.2 !important;
     transform: translate(0) scale(1) !important; }
   body.bg-light {
     background-color: #fff !important; }
