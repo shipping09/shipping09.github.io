@@ -109,7 +109,7 @@ footer a:not(.nav-link) {
 
 @media print {
   [data-aos] {
-    opacity: 0.2 !important;
+    opacity: 1 !important;
     transform: translate(0) scale(1) !important; }
   body.bg-light {
     background-color: #fff !important; }

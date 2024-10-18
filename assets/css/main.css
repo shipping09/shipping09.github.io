@@ -288,28 +288,6 @@ input, select, textarea {
 				max-width: calc(100% - 3em);
 			}
 
-			<style>
-			.image-container {
-				position: relative;
-				display: inline-block;
-			}
-			.overlay {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				color: white;
-				background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
-				padding: 10px;
-				border-radius: 5px;
-				text-align: center;
-				visibility: hidden; /* 初始隱藏 */
-			}
-			.image-container:hover .overlay {
-				visibility: visible; /* 滑鼠懸停時顯示文字 */
-			}
-		</style>
-		
 		}
 
 /* Row */
@@ -2138,7 +2116,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
@@ -2148,7 +2126,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 50%;
 		}
 
 			.image.fit img {
@@ -2167,7 +2145,7 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
-
+				
 /* List */
 
 	ol {
