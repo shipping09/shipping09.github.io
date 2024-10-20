@@ -1793,6 +1793,31 @@ input, select, textarea {
 	header.major h2 {
 		font-size: 2em;
 	}
+/* Overlay */
+
+.overlay {
+    position: relative;
+    display: inline-block; /* 使 overlay 與圖片大小一致 */
+}
+
+.overlay img {
+    display: block; /* 使圖片顯示為塊元素，避免底部空白 */
+}
+
+.centered-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white; /* 根據需要調整顏色 */
+    font-size: 1.2em; /* 根據需要調整字體大小 */
+    margin: 0;
+    text-align: center; /* 文字置中 */
+}
+
+.centered-text:nth-child(2) { top: 30%; }
+.centered-text:nth-child(3) { top: 40%; }
+.centered-text:nth-child(4) { top: 50%; }
+.centered-text:nth-child(5) { top: 60%; }
 
 /* Form */
 
